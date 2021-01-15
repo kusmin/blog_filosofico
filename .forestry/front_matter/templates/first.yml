@@ -1,0 +1,9 @@
+---
+label: first
+hide_body: false
+fields:
+- name: pagina_inicial
+  type: include
+  config: {}
+  template: first
+  label: pagina inicial
