@@ -1,17 +1,22 @@
 body {
     margin: 0 auto;
     padding: 0;
-    width: 100%;
-}
-
-main {
-    width: 100%;
-}
-
-.mp-footer {
-    width: 100%;
 }
 
 .mp-footer>.column h3 {
     color: rgb(223, 196, 162);
+}
+
+.mp-footer>.column a {
+    display: inline-block;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Footer */
+
+.instagram {
+    background-image: url(/assets/img/svg/instagram_108043.svg);
 }
