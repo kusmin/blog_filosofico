@@ -27,9 +27,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  kusmin
 
-permalink: /xadrez/,/programacao/,/filosofia/,/sobre/
+permalink: /:collection/:year/:month/:day/:title
 
 # Build settings
 theme: minima
@@ -55,3 +55,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+ collections:
+  categorias:
+    collections_dir: _categorias
+    output: true
+    permalink: /:collection/
